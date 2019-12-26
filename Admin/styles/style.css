@@ -1,0 +1,59 @@
+.ractorform{
+	padding: 20px;
+	border-radius: 5px
+}
+
+.admin-action-section{
+	text-align: center;
+}
+
+.action-section{
+	margin-top: 20px;
+}
+
+.rac-table{
+	margin-top: 50px!important;
+	margin-bottom: 50px!important;
+}
+
+.back-btn{
+	marin-top: 30px;
+	marin-bottom: 30px;
+}
+
+/* label color */
+
+.self-input label {
+    color: #000!important;
+}
+
+
+/* label focus color */
+
+.self-input input[type=text]:focus+label {
+    color: #000!important;
+}
+
+::placeholder {
+    color: #000!important;
+    opacity: 1;
+    /* Firefox */
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #000;
+}
+
+ ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #000;
+}
+
+
+/* label underline focus color */
+
+.self-input input[type=text]:focus {
+    border-bottom: 1px solid #000!important;
+    box-shadow: 0 1px 0 0 #000!important;
+}

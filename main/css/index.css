@@ -1,0 +1,292 @@
+/* Font Raleway Link */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+/* Webpage Editing/Styleing Start Here */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    color: yellowgreen;
+}
+
+nav {
+    height: 75px!important;
+}
+
+.brand-logo {
+    font-weight: 900;
+    transition: 200ms!important;
+    margin-top: 8px;
+}
+
+.nav-icon {
+    margin-top: 5px!important;
+}
+
+.nav-link {
+    margin-top: 10px!important;
+    text-transform: capitalize!important
+}
+
+
+/* background Settings */
+
+.sliderOne {
+    padding: 20px;
+    background-image: url('../../Images/background/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+.sliderTwo {
+    padding: 20px;
+    background-image: url('../../Images/background/slide1.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+.sliderThree {
+    padding: 20px;
+    background-image: url('../../Images/background/slide3.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+.sliderFour {
+    padding: 20px;
+    background-image: url('../../Images/background/slide4.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+.sliderPara {
+    margin-top: 30px;
+}
+
+.sliderBtn {
+    margin-top: 50px;
+}
+
+
+/* Slider Styling Ends */
+
+.second-section {
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+}
+
+.second-section-text {
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-transform: bolder
+}
+
+.second-section-para {
+    color: rgb(94, 94, 94);
+    font-size: 20px
+}
+
+.second-section-background-image {
+    background-image: url('../../Images/background/bg_hello.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 5px
+}
+
+.second-section-button {
+    margin-top: 30px;
+}
+
+
+/* Second Section ends */
+
+
+/* Room Section Start */
+
+.room-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.room-inner-section {
+    padding: 20px;
+}
+
+.inner-box {
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    height: auto;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+#btn-animate {
+    text-transform: capitalize
+}
+
+#btn-animate:hover {
+    background-color: rgb(255, 230, 146)!important;
+    color: black;
+    transition: 1s;
+    text-transform: capitalize
+}
+/* Room Section Ends */
+
+
+/* Facility Section */
+
+.facility-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.facility-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.facility-inner-box {
+    padding: 10px;
+    background: goldenrod;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.facility-icons {
+    font-size: 100px!important;
+    text-align: center!important;
+    color: #000;
+}
+
+.facility-inner-box .facility-icons:hover {
+    font-size: 100px!important;
+    text-align: center!important;
+    color: #fff;
+}
+
+.facility-inner-box:hover {
+    background-color: #333;
+    transition: 500ms;
+    color: #fff;
+}
+
+
+/* Facility Section Ends */
+
+
+/* Kitchen Section */
+
+.kithchen-background-image {
+    background-image: url('../../Images/background/kitchen.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.kitchen-section-title {
+    font-weight: 800!important;
+    text-transform: capitalize;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn-kitchen {
+    border: 2px solid white!important;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 800!important
+}
+
+
+/* Kitchen Section Ends */
+
+
+/* new Section */
+
+.news-section {
+    padding: 30px;
+}
+
+
+/* label color */
+
+.self-input label {
+    color: #000!important;
+}
+
+
+/* label focus color */
+
+.self-input input[type=text]:focus+label {
+    color: #000!important;
+}
+
+::placeholder {
+    color: #000!important;
+    opacity: 1;
+    /* Firefox */
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #000;
+}
+
+ ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #000;
+}
+
+
+/* label underline focus color */
+
+.self-input input[type=text]:focus {
+    border-bottom: 1px solid #000!important;
+    box-shadow: 0 1px 0 0 #000!important;
+}
+
+
+/* valid color */
+
+.self-input input[type=text].valid {
+    border-bottom: 1px solid #000!important;
+    box-shadow: 0 1px 0 0 #000!important;
+}
+
+
+/* invalid color */
+
+.self-input input[type=text].invalid {
+    border-bottom: 1px solid #000!important;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+
+/* icon prefix focus color */
+
+.self-input .prefix.active {
+    color: #000;
+}
+
+
+/* news Section Ends */
